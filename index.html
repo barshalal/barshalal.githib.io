@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <link href="style.css" type="text/css" rel="stylesheet">
+        <title>
+            Barsha's Portfolio
+        </title>
+        <body>
+            <nav> 
+            <a href="#about"> About </a> <br>
+            <a href="#skills"> Skills </a> <br>
+            <a href="#accomplishments"> Accomplishments </a> <br>
+            <a href="#contact"> Contact </a>
+            </nav>
+            <main>
+            <p>
+               <header> 
+                <nav class="topnav" id="portfolioTopnav">
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#accomplishments">Accomplishments</a>
+                    <a href="#contact">Contact</a>
+                    <a href="javascript:void(0);" class="icon" onclick="openMenu()" ><i class="fa fa-bars"></i></a>
+                  </nav>
+                  <h1> Barsha </h1> 
+                </header> 
+                <!--About Section -->
+                <div id="aboutsection"> 
+                    <figure>
+                    <img src="Barsha.jpg"alt="Barsha" width="200" height="200"/>
+                </figure>
+                <h2 id="about" class="heading uppercase"> About </h2>
+                <p> A highly motivated <strong> optometrist </strong> with experience in academic, clinical and research settings, currently undertaking a <em> PhD </em>  program of research at university. <br> Seeking research and/or academic position in which I can utilize my knowledge to pursue ideas for the betterment of the eyecare services and to diversify my knowledge by exploring different newer aspects of optometry. </p>
+                <!--Skills Section -->
+                <h3 id="skills"> Skills </h3>
+                <h4> Research Skills </h4>
+                <ul class="list">
+                    <li> Report writing </li>
+                    <li> Data collection </li>
+                    <li> Planning and scheduling </li>
+                    <li> Analysis of information from different sources</li>
+                </ul>
+                <h4> Interpersonal Skills </h4>
+                <ul class="list">
+                    <li> Active listening </li>
+                    <li> Team work </li>
+                    <li> Responsibility </li>
+                    <li> Leadership </li>
+                </ul>
+                <h4> Technical Skills </h4>
+                <ul class="list">
+                    <li> Statistiscal software </li>
+                    <li> Research methodology </li>
+                </ul>
+            </div>
+            <!--About accomplishments -->
+            <div id="accomplishmentsection">
+                <h2 id="accomplishments"> Accomplishments </h2>
+                <table>
+                    <tr>
+                        <th scope="col"> Publications </th>
+                        <th scope="col"> Awards </th>
+                        <th scope="col"> Presentation </th>
+                    </tr>
+                    <tr>
+                        <td> Lal, B., Alonso-Caneiro, D., Read, S. A., Tran, B., Van Bui, C., Tang, D., ... & Carkeet, A. (2022). Changes in Retinal Optical Coherence Tomography Angiography Indexes Over 24 Hours. Investigative ophthalmology & visual science, 63(3), 25-25. </td>
+                        <td>
+                            Best Outgoing Student, Best Research Project, and Best Research Methodology of Master of Philosophy in Optometry
+                        </td>
+                        <td> 
+                            Longitudinal changes in choroidal optical coherence tomography angiography indices among young adults and children over one year 
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <h3>Coding Examples</h3>
+            <a href="quiz.html" target="_blank">Take the Portfolio Quiz!</a>
+            <!--About Contact -->
+            <div id="contactsection">
+                <h2 id="contact" class="contactform"> Contact </h2>
+                <a href="https://www.linkedin.com/in/barsha-lal-22742859/" target="_blank"> Linkedin </a> <br>
+                <a href="https://www.researchgate.net/profile/Barsha-Lal" target="_blank"> Researchgate </a> <br> <br>
+                <form>
+                    <label for="Name"> *Name </label> <br>
+                    <input type="text" name="Name" required> <br> <br>
+                    <label for="Email"> *Email </label> <br>
+                    <input type="text" name="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required> <br> <br>
+                    <label for="Mobile"> Mobile(optional) </label> <br>
+                    <input type="tel" name="Mobile" id=”mobile” pattern="[0-9] {10,16}"> <br> <br>
+                    <label for="textarea"> *Leave your message below </label> <br>
+                    <textarea id="message" name="message" rows="5" cols="30"> </textarea> <br> <br>
+                    <input type="submit">
+                </form><br>
+                
+            </div>
+            </p>
+        </main>
+        <script src="./nav.js">
+        </script>
+        </body>
+    </head>
+</html>
